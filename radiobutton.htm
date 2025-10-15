@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+            Radio Button
+		</title>
+	</head>
+	<body>
+		<form>
+            <p align="center">
+                Name : <input type="text" placeholder="enter name">
+            </p>
+            Gender : <input type="radio">Male
+                     <input type="radio">Female
+                     <input type="radio">Transgender
+                     <input type="radio">Other
+                     <br>
+            Gender : <input type="radio" name="gender">Male
+                     <input type="radio" name="gender">Female
+                     <input type="radio" name="gender">Transgender
+                     <input type="radio" name="gender">Other
+                     <br>
+            Gender : <input type="radio" name="gender" value="Male">Male
+                     <input type="radio" name="gender" value="Female">Female
+                     <input type="radio" name="gender" value="Transgender">Transgender
+                     <input type="radio" name="gender" value="Other">Other
+            <p>
+                Select price Range : <br>
+                <input type="checkbox">Rs.250/- to Rs.500/-<br>
+                <input type="checkbox">Rs.500/- to Rs.900/-<br>
+                <input type="checkbox">Rs.900/- to Rs.1500/-<br>
+                <input type="checkbox"> above 1500/-<br>
+            </p>
+            <hr>
+            <p>
+                Select city :
+                <select>
+                    <option>Mumbai</option>
+                    <option>Pune</option>
+                    <option>Jaipur</option>
+                    <option>Nagpur</option>
+                </select>
+            </p>
+            <p>
+                Select city :
+                <select>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="pune">Pune</option>
+                    <option value="jaipur">Jaipur</option>
+                    <option value="nagpur">Nagpur</option>
+                </select>
+            </p>
+            <p>
+                Select city :
+                <select>
+                      <option value="mumbai">Mumbai</option>
+                      <option value="pune" selected>Pune</option>
+                      <option value="jaipur">Jaipur</option>
+                      <option value="nagpur">Nagpur</option>
+                </select> 
+            </p>
+            <p>
+              Select city :
+                <select size="8" multiple>
+                      <optgroup label="Maharashtra">
+                      <option value="mumbai">Mumbai</option>
+                      <option value="pune">Pune</option>
+                      <option value="jaipur">Jaipur</option>
+                      <option value="nagpur">Nagpur</option>
+                      </optgroup>
+
+                      <optgroup label="Gujarat">
+                      <option value="surat">Surat</option>
+                      <option value="Baroda">Baroda</option>
+                      <option value="Ahmedabad">Ahmedabad</option>
+                      <option value="Bhuj">Bhuj</option>
+                      </optgroup>
+                </select> 
+            </p>
+        </form>
+	</body>
+</html>

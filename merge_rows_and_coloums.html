@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		Merge the rows and columns in a table
+		</title> 
+	</head>
+	<body>
+<!--ROW MERGE-->
+		<table border="1" width="500" height="100" >
+			<tr bgcolor="#A1FB8E" >
+				<th>S.No</th>
+				<th>Name</th>
+				<th>Course</th>
+				<th>Fees</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Sarish</td>
+				<td rowspan="2">FIS</td>
+				<td rowspan="2">Rs.34,000/-</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Arunaa</td>
+				
+			</tr>
+		</table>
+			<br>
+			<!--Coloumn Merge-->
+		<table border="1" width="500" height="100" >
+			<tr bgcolor="#A1FB8E" >
+				<th rowspan="2">S.No</th>
+				<th rowspan="2">Name</th>
+				<th rowspan="2">Course</th>
+				<th colspan="2">Fees</th>
+				<tr bgcolor="#A1FB8E">
+					<td>sem-1</td>
+					<td>sem-2</td>
+				</tr>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Sarish</td>
+				<td>FIS</td>
+				<td>Rs.34,000/-</td>
+				<td>Rs.30,000/-</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Arunaa</td>
+				<td>DDCS</td>
+				<td>Rs.23,000/-</td>
+				<td>Rs.40,000/-</td>
+				
+			</tr>
+		</table>
+
+
+		
+
+	</body>
+</html>
